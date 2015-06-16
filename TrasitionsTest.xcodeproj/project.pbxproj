@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		203F3A111B2B84A00072A29D /* Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 203F3A101B2B84A00072A29D /* Transition.m */; };
-		203F3A131B2B891A0072A29D /* nimo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 203F3A121B2B891A0072A29D /* nimo.jpg */; };
-		203F3A191B2BB95F0072A29D /* movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 203F3A181B2BB9520072A29D /* movie.m4v */; };
 		203F3A1F1B2C239C0072A29D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203F3A1E1B2C239C0072A29D /* AVFoundation.framework */; };
 		205597701B2B20630093FEF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055976F1B2B20630093FEF5 /* main.m */; };
 		205597731B2B20630093FEF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 205597721B2B20630093FEF5 /* AppDelegate.m */; };
@@ -19,7 +17,6 @@
 		2055977E1B2B20630093FEF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2055977C1B2B20630093FEF5 /* LaunchScreen.xib */; };
 		2055978A1B2B20630093FEF5 /* MovieTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205597891B2B20630093FEF5 /* MovieTestTests.m */; };
 		205597941B2B234A0093FEF5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205597931B2B234A0093FEF5 /* MediaPlayer.framework */; };
-		205597961B2B2D3D0093FEF5 /* mario.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 205597951B2B2D3D0093FEF5 /* mario.JPG */; };
 		205597991B2B2DB20093FEF5 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 205597981B2B2DB20093FEF5 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +33,6 @@
 /* Begin PBXFileReference section */
 		203F3A0F1B2B84A00072A29D /* Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transition.h; sourceTree = "<group>"; };
 		203F3A101B2B84A00072A29D /* Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transition.m; sourceTree = "<group>"; };
-		203F3A121B2B891A0072A29D /* nimo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nimo.jpg; sourceTree = "<group>"; };
-		203F3A181B2BB9520072A29D /* movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.m4v; sourceTree = "<group>"; };
 		203F3A1C1B2C23740072A29D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		203F3A1E1B2C239C0072A29D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2055976A1B2B20630093FEF5 /* TrasitionsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrasitionsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +49,6 @@
 		205597881B2B20630093FEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		205597891B2B20630093FEF5 /* MovieTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTestTests.m; sourceTree = "<group>"; };
 		205597931B2B234A0093FEF5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		205597951B2B2D3D0093FEF5 /* mario.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario.JPG; sourceTree = "<group>"; };
 		205597971B2B2DB20093FEF5 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
 		205597981B2B2DB20093FEF5 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +76,6 @@
 		203F3A151B2BB77D0072A29D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				203F3A181B2BB9520072A29D /* movie.m4v */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -112,8 +105,6 @@
 		2055976C1B2B20630093FEF5 /* MovieTest */ = {
 			isa = PBXGroup;
 			children = (
-				203F3A121B2B891A0072A29D /* nimo.jpg */,
-				205597951B2B2D3D0093FEF5 /* mario.JPG */,
 				205597711B2B20630093FEF5 /* AppDelegate.h */,
 				205597721B2B20630093FEF5 /* AppDelegate.m */,
 				205597741B2B20630093FEF5 /* ViewController.h */,
@@ -236,11 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203F3A191B2BB95F0072A29D /* movie.m4v in Resources */,
-				205597961B2B2D3D0093FEF5 /* mario.JPG in Resources */,
 				205597791B2B20630093FEF5 /* Main.storyboard in Resources */,
 				2055977E1B2B20630093FEF5 /* LaunchScreen.xib in Resources */,
-				203F3A131B2B891A0072A29D /* nimo.jpg in Resources */,
 				2055977B1B2B20630093FEF5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
