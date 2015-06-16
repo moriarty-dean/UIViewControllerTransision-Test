@@ -428,7 +428,6 @@
 				INFOPLIST_FILE = MovieTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = TrasitionsTestTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTest.app/MovieTest";
 			};
 			name = Debug;
 		};
@@ -443,7 +442,6 @@
 				INFOPLIST_FILE = MovieTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = TrasitionsTestTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTest.app/MovieTest";
 			};
 			name = Release;
 		};
